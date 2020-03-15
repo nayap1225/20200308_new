@@ -1,7 +1,7 @@
 // import React from 'react'
 import styled, { css } from 'styled-components'
 
-// margin, padding, bold, display => inline-block, color
+// margin, padding, bold, (display) => inline - block, color
 // export const Text = styled.div`
 //   ${(props) => {
 //     console.log(props)
@@ -18,13 +18,13 @@ export const Text = styled.div`
     bold && // props에 bold가 있을때만
     `
 	font-weight: bold;
- 
+
   `}
   ${({ margin }) =>
     margin &&
     `
 	margin: ${margin};
- 
+
   `}
   ${({ padding }) =>
     padding &&
