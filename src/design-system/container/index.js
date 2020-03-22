@@ -4,6 +4,12 @@ import styled, { css } from 'styled-components'
 // margin, padding, bold, (display) => inline - block, color
 
 export const Container = styled.div`
+	${({ display }) =>
+    display &&
+    `
+		display: ${display};
+	`}
+
 	${({ position }) =>
     position &&
     `
