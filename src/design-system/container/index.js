@@ -39,5 +39,5 @@ export const Container = styled.div`
     textAlgin &&
     `
 	  textAlign: textAlign;
-  `}	
+  `}
 `
